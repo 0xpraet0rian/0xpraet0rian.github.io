@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>0xpraet0rian — Developer</title>
+<meta name="description" content="Developer portfolio of 0xpraet0rian.">
+<meta property="og:title" content="0xpraet0rian — Developer">
+<meta property="og:description" content="Developer portfolio.">
+<meta property="og:image" content="https://0xpraet0rian.github.io/assets/avatar.jpg">
+<meta property="og:url" content="https://0xpraet0rian.github.io/">
+<link rel="canonical" href="https://0xpraet0rian.github.io/">
+<link rel="icon" href="assets/avatar.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header class="nav">
+  <a class="brand" href="#top"><img class="mini" src="assets/avatar.jpg" alt="" width="28" height="28">0xpraet0rian</a>
+  <nav>
+    <a href="#work">work</a>
+    <a href="#private">private</a>
+    <a href="#stack">stack</a>
+    <a href="#contact">contact</a>
+    <a class="btn small" href="https://github.com/0xpraet0rian" rel="noopener">GitHub &#8599;</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="prompt"><span class="ps">0x@field:~$</span> whoami</p>
+      <h1>0xpraet0rian<span class="cursor">_</span></h1>
+      <p class="lead"><span id="typed" data-text="I build tools for people who work in the field: software for recording what's uncovered, mapping what's left, and making sense of the layers in between.">I build tools for people who work in the field: software for recording what's uncovered, mapping what's left, and making sense of the layers in between.</span></p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/0xpraet0rian" rel="noopener">View GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2><span class="ps">$</span> ls ./work</h2>
+    <p class="sub">Pulled live from <a href="https://github.com/0xpraet0rian?tab=repositories" rel="noopener">my GitHub repositories</a>, so it is always current.</p>
+    <div id="repos" class="cards" aria-live="polite">
+      <article class="card skeleton"></article>
+      <article class="card skeleton"></article>
+      <article class="card skeleton"></article>
+    </div>
+    <noscript><p>Enable JavaScript to load repositories, or browse them on <a href="https://github.com/0xpraet0rian?tab=repositories">GitHub</a>.</p></noscript>
+  </section>
+
+  <section id="private">
+    <h2><span class="ps">$</span> ls -la ./private</h2>
+    <p class="sub">Not everything ships in the open. Part of my work lives in private repositories, so the code stays locked while the projects keep moving.</p>
+    <div id="private-repos" class="cards"></div>
+  </section>
+
+  <section id="stack">
+    <h2><span class="ps">$</span> cat stack.txt</h2>
+    <p class="sub">Languages and tools across my public and private projects.</p>
+    <div id="langs" class="chips"><span class="chip">loading…</span></div>
+  </section>
+
+  <section id="contact">
+    <h2><span class="ps">$</span> ping contact</h2>
+    <div class="grid two">
+      <p>Want to collaborate, review something, or just talk shop? Reach me through GitHub.</p>
+      <div class="cta">
+        <a class="btn" href="https://github.com/0xpraet0rian" rel="noopener">github.com/0xpraet0rian</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>&copy; <span id="year"></span> 0xpraet0rian · exit 0</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
